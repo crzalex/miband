@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3504D70D1D37403E002F2A84 /* MBUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3504D70C1D37403E002F2A84 /* MBUserInfoModel.m */; };
+		3504D7121D3887A6002F2A84 /* MBCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3504D70F1D3887A6002F2A84 /* MBCentralManager.m */; };
+		3504D7131D3887A6002F2A84 /* MBPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 3504D7111D3887A6002F2A84 /* MBPeripheral.m */; };
 		352923DC1CEFF62D004182A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 352923DB1CEFF62D004182A3 /* AppDelegate.m */; };
 		352923DF1CEFF62D004182A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 352923DE1CEFF62D004182A3 /* main.m */; };
 		352923E21CEFF62D004182A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352923E11CEFF62D004182A3 /* ViewController.m */; };
@@ -14,6 +17,12 @@
 		352923E71CEFF62D004182A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352923E51CEFF62D004182A3 /* Main.storyboard */; };
 		352923F21CEFF62D004182A3 /* miband_bleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 352923F11CEFF62D004182A3 /* miband_bleTests.m */; };
 		352923FD1CEFF62D004182A3 /* miband_bleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 352923FC1CEFF62D004182A3 /* miband_bleUITests.m */; };
+		3529240B1CEFF729004182A3 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3529240A1CEFF729004182A3 /* CoreBluetooth.framework */; };
+		35E68DA21D37311200C98930 /* MBDataBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E68DA11D37311200C98930 /* MBDataBuilder.m */; };
+		35E68DA51D37311E00C98930 /* MBBatteryInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E68DA41D37311E00C98930 /* MBBatteryInfoModel.m */; };
+		35E68DA81D37314200C98930 /* MBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E68DA71D37314200C98930 /* MBHelper.m */; };
+		35E68DAB1D37315900C98930 /* MBDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E68DAA1D37315900C98930 /* MBDataReader.m */; };
+		35E68DAE1D37338E00C98930 /* MBDeviceInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E68DAD1D37338E00C98930 /* MBDeviceInfoModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3504D70B1D37403E002F2A84 /* MBUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBUserInfoModel.h; sourceTree = "<group>"; };
+		3504D70C1D37403E002F2A84 /* MBUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBUserInfoModel.m; sourceTree = "<group>"; };
+		3504D70E1D3887A6002F2A84 /* MBCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCentralManager.h; sourceTree = "<group>"; };
+		3504D70F1D3887A6002F2A84 /* MBCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCentralManager.m; sourceTree = "<group>"; };
+		3504D7101D3887A6002F2A84 /* MBPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPeripheral.h; sourceTree = "<group>"; };
+		3504D7111D3887A6002F2A84 /* MBPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPeripheral.m; sourceTree = "<group>"; };
 		352923D71CEFF62D004182A3 /* miband-ble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "miband-ble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		352923DA1CEFF62D004182A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		352923DB1CEFF62D004182A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +64,17 @@
 		352923F81CEFF62D004182A3 /* miband-bleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "miband-bleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		352923FC1CEFF62D004182A3 /* miband_bleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = miband_bleUITests.m; sourceTree = "<group>"; };
 		352923FE1CEFF62D004182A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3529240A1CEFF729004182A3 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		35E68DA01D37311200C98930 /* MBDataBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDataBuilder.h; sourceTree = "<group>"; };
+		35E68DA11D37311200C98930 /* MBDataBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDataBuilder.m; sourceTree = "<group>"; };
+		35E68DA31D37311E00C98930 /* MBBatteryInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBBatteryInfoModel.h; sourceTree = "<group>"; };
+		35E68DA41D37311E00C98930 /* MBBatteryInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBBatteryInfoModel.m; sourceTree = "<group>"; };
+		35E68DA61D37314200C98930 /* MBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBHelper.h; sourceTree = "<group>"; };
+		35E68DA71D37314200C98930 /* MBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBHelper.m; sourceTree = "<group>"; };
+		35E68DA91D37315900C98930 /* MBDataReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDataReader.h; sourceTree = "<group>"; };
+		35E68DAA1D37315900C98930 /* MBDataReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDataReader.m; sourceTree = "<group>"; };
+		35E68DAC1D37338E00C98930 /* MBDeviceInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDeviceInfoModel.h; sourceTree = "<group>"; };
+		35E68DAD1D37338E00C98930 /* MBDeviceInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDeviceInfoModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3529240B1CEFF729004182A3 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +106,7 @@
 		352923CE1CEFF62D004182A3 = {
 			isa = PBXGroup;
 			children = (
+				3529240A1CEFF729004182A3 /* CoreBluetooth.framework */,
 				352923D91CEFF62D004182A3 /* miband-ble */,
 				352923F01CEFF62D004182A3 /* miband-bleTests */,
 				352923FB1CEFF62D004182A3 /* miband-bleUITests */,
@@ -99,6 +127,22 @@
 		352923D91CEFF62D004182A3 /* miband-ble */ = {
 			isa = PBXGroup;
 			children = (
+				3504D70E1D3887A6002F2A84 /* MBCentralManager.h */,
+				3504D70F1D3887A6002F2A84 /* MBCentralManager.m */,
+				3504D7101D3887A6002F2A84 /* MBPeripheral.h */,
+				3504D7111D3887A6002F2A84 /* MBPeripheral.m */,
+				3504D70B1D37403E002F2A84 /* MBUserInfoModel.h */,
+				3504D70C1D37403E002F2A84 /* MBUserInfoModel.m */,
+				35E68DAC1D37338E00C98930 /* MBDeviceInfoModel.h */,
+				35E68DAD1D37338E00C98930 /* MBDeviceInfoModel.m */,
+				35E68DA91D37315900C98930 /* MBDataReader.h */,
+				35E68DAA1D37315900C98930 /* MBDataReader.m */,
+				35E68DA61D37314200C98930 /* MBHelper.h */,
+				35E68DA71D37314200C98930 /* MBHelper.m */,
+				35E68DA31D37311E00C98930 /* MBBatteryInfoModel.h */,
+				35E68DA41D37311E00C98930 /* MBBatteryInfoModel.m */,
+				35E68DA01D37311200C98930 /* MBDataBuilder.h */,
+				35E68DA11D37311200C98930 /* MBDataBuilder.m */,
 				352923DA1CEFF62D004182A3 /* AppDelegate.h */,
 				352923DB1CEFF62D004182A3 /* AppDelegate.m */,
 				352923E01CEFF62D004182A3 /* ViewController.h */,
@@ -266,9 +310,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E68DAB1D37315900C98930 /* MBDataReader.m in Sources */,
+				35E68DA81D37314200C98930 /* MBHelper.m in Sources */,
+				3504D70D1D37403E002F2A84 /* MBUserInfoModel.m in Sources */,
+				35E68DAE1D37338E00C98930 /* MBDeviceInfoModel.m in Sources */,
 				352923E21CEFF62D004182A3 /* ViewController.m in Sources */,
 				352923DF1CEFF62D004182A3 /* main.m in Sources */,
+				3504D7121D3887A6002F2A84 /* MBCentralManager.m in Sources */,
+				35E68DA51D37311E00C98930 /* MBBatteryInfoModel.m in Sources */,
+				35E68DA21D37311200C98930 /* MBDataBuilder.m in Sources */,
 				352923DC1CEFF62D004182A3 /* AppDelegate.m in Sources */,
+				3504D7131D3887A6002F2A84 /* MBPeripheral.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +541,7 @@
 				352924031CEFF62D004182A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		352924041CEFF62D004182A3 /* Build configuration list for PBXNativeTarget "miband-bleTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +550,7 @@
 				352924061CEFF62D004182A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		352924071CEFF62D004182A3 /* Build configuration list for PBXNativeTarget "miband-bleUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +559,7 @@
 				352924091CEFF62D004182A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
